@@ -2,8 +2,6 @@
 
 Se trata de hacer una app aplicando React 
 
-Posee un registro y login básico, (lo integro con una base de datos en el sprint 2).
-
 ### Instalación
 _Usar npm para instalar los modulos que necesita la app. Para eso se puede utilizar cualquiera de los siguientes comandos:_
 
