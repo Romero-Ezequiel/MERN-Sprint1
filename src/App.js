@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, BrowserRouter as Router } from 'react-router-dom'
-import Home from './components/mostrar/home';
+import Home from './componentes/mostrar/home';
 //'./screen/home';
-import Login from './components/mostrar/login';
+import Login from './componentes/mostrar/login';
 //'./screen/login';
-import CreateAccount from './components/mostrar/crateAccount';
+import CreateAccount from './componentes/mostrar/crateAccount';
 //'./screen/crateAccount';
-import Cities from './components/mostrar/cities';
+import Cities from './componentes/mostrar/cities';
 //'./screen/cities';
 
 

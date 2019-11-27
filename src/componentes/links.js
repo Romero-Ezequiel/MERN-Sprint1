@@ -12,7 +12,7 @@ class Links extends React.Component{
               </p>
 
               <div className="textLeft App-login">
-                <Link to={'./login'}> Log in </Link>
+                <Link to={'./login'}> Login </Link>
               </div> 
 
               <div className="textRight App-createAccount">
