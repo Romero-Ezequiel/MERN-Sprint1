@@ -14,7 +14,7 @@ npm update
 ### Construido con 🛠️
 _Las herramientas que utilice para crear la app son:_
 
-* [React.Js](https://es.reactjs.org/) - El framework web para crear interfaz de usuario
+* [React](https://es.reactjs.org/) - El framework web para crear interfaz de usuario
 * [Bootstrap 4](https://getbootstrap.com/) - El framework de Css
 
 ### Autor ✒️
