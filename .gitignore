@@ -1,4 +1,4 @@
-# Ignora todas las subcarpetas con nombre node_modules
+#  Todos los paquetes, librerías y dependencias que utiliza nuestra aplicación.
 node_modules 
 
 
