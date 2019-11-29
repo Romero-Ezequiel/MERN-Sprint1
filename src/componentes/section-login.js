@@ -1,34 +1,36 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../App.css';
 
 
 class SectionLogin extends React.Component{
     render() {
-        return(
-            
-            <div className="Section-Login">
-               <form>
-                    <div className="form-group row">
-                        <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Email</label>
-                        <div className="col-sm-10">
-                        <input type="email" className="form-control" id="inputEmail" placeholder="Email" />
-                        </div>
-                    </div>
+        return(            
+               //Creo un formulario para registrarse con la clase formulario para darle estilo
+               <form className="formulario">
+               <h1 className="titulo">Iniciar sesión</h1>
+               <div className="contenedor">
 
-                    <div className="form-group row">
-                        <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Password</label>
-                        <div className="col-sm-10">
-                        <input type="password" className="form-control" id="inputPassword" placeholder="Password" />
-                        </div>
-                    </div>
-                    
-                    <div className="form-group row">
-                        <div className="col-sm-10">
-                        <button type="submit" className="btn btn-primary">Sign in</button>
-                        </div>
-                    </div>
-                    </form>
-            </div>
+                   <div className="input-contenedor">
+                       <i className="fas fa-envelope icon">
+                           <input type="text" placeholder="Correo Electronico"/>
+                       </i>    
+                   </div>
+
+                   <div className="input-contenedor">
+                       <i className="fas fa-key icon">
+                           <input type="password" placeholder="Contraseña" />
+                       </i>
+                   </div>
+
+                   <input type="submit" value="Registrate" className="button"/>
+
+                   <p className="text-formulario" >Al registrarte, aceptas muestras condiciones de uso y politica de privacidad</p>
+                   <p className="text-formulario">¿No tienes una cuenta? Entonces 
+                   <Link className="link" to={'./createAccount'}> Registrate </Link></p>
+
+               </div>
+           </form>
         );
 
     }
