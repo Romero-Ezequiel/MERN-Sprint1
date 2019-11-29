@@ -1,9 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import '../App.css';
+import '../estilos/estilo.css';
 
-
-class SectionCreateAccount extends React.Component {
+class FormularioRegistros extends React.Component {
     render() {
         return (
             //Creo un formulario para registrarse con la clase formulario para darle estilo
@@ -41,4 +40,4 @@ class SectionCreateAccount extends React.Component {
     }
 }
 
-export default SectionCreateAccount;
+export default FormularioRegistros;

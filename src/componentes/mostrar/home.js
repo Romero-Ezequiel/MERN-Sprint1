@@ -1,15 +1,15 @@
 import React from 'react';
-import Header from '../header';
-import Section from '../section';
-import Links from '../links';
-import Footer from '../footer';
+import Header from './header';
+import Main from './main';
+import Enlaces from './enlaces';
+import Footer from './footer';
 
 function Home() {
   return (
     <div className="Home">
       <Header />
-      <Section />
-      <Links />
+      <Main />
+      <Enlaces />
       <Footer />
     </div>
   );

@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import '../App.css';
-
+import '../estilos/estilo.css';
 
 class SectionLogin extends React.Component{
     render() {
@@ -27,7 +26,7 @@ class SectionLogin extends React.Component{
 
                    <p className="text-formulario" >Al registrarte, aceptas muestras condiciones de uso y politica de privacidad</p>
                    <p className="text-formulario">¿No tienes una cuenta? Entonces 
-                   <Link className="link" to={'./createAccount'}> Registrate </Link></p>
+                   <Link className="link" to={'./registrarse'}> Registrate </Link></p>
 
                </div>
            </form>

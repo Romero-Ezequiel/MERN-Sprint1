@@ -1,14 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import '../App.css';
-
-class Links extends React.Component{
-
+import '../estilos/estilo.css';
+class Enlaces extends React.Component{
     render(){
         return(
           <div className="App-links">
               <p>
-                Want to build you own MYtinerary?
+              ¿Quieres construir tu propio MYtinerary?
               </p>
 
               <div className="textLeft App-login">
@@ -18,7 +16,7 @@ class Links extends React.Component{
               </div> 
 
               <div className="textRight App-createAccount">
-                <Link to={'./createAccount'}>
+                <Link to={'./registrarse'}>
                   <p>Registrarse</p> 
                 </Link>
               </div>
@@ -28,4 +26,4 @@ class Links extends React.Component{
 
 }
 
-export default Links;
+export default Enlaces;
