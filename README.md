@@ -1,6 +1,6 @@
 ## Resolución del Sprint 1 del curso de MERN
 
-Se trata de hacer una app aplicando React 
+Se trata de una app de viajes
 
 ### Instalación
 _Usar npm para instalar los modulos que necesita la app. Para eso se puede utilizar cualquiera de los siguientes comandos:_
