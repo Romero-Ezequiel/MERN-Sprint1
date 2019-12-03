@@ -8,7 +8,7 @@ class Footer extends React.Component{
         return(
                 <div>
                     <Link to={'/'}> 
-                        <img src={home} className="img-Home" /> 
+                        <img src={home} className="img-Home" alt="Imagen-Home" /> 
                     </Link>
                 </div>
         );
