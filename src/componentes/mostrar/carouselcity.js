@@ -20,57 +20,57 @@ class CarouselCity  extends React.Component {
             <div className="Section-Cities">
                 <Carousel autoPlay>
                     <div>
-                        <img src={ciudad_1} className="img-fluid" />
+                        <img src={ciudad_1} className="img-fluid" alt="Imagen-City-1" />
                         <p className="legend">Buenos Aires, Argentina</p>
                     </div>
                     <div>
-                        <img src={ciudad_2} className="img-fluid" />
+                        <img src={ciudad_2} className="img-fluid" alt="Imagen-City-2" />
                         <p className="legend">Bahia, Chile</p>
                     </div>
                     <div>
-                        <img src={ciudad_4} className="img-fluid" />
+                        <img src={ciudad_4} className="img-fluid" alt="Imagen-City-4" />
                         <p className="legend">Cristo Redentor, Brasil</p>
                     </div>
                     <div>
-                        <img src={ciudad_7} className="img-fluid" />
+                        <img src={ciudad_7} className="img-fluid" alt="Imagen-City-7" />
                         <p className="legend">Vancouver, Canada</p>
                     </div>
                     <div>
-                        <img src={ciudad_8} className="img-fluid" />
+                        <img src={ciudad_8} className="img-fluid" alt="Imagen-City-8" />
                         <p className="legend">Islas phi phi</p>
                     </div>
 
                     <div>
-                        <img src={ciudad_3} className="img-fluid" />
+                        <img src={ciudad_3} className="img-fluid" alt="Imagen-City-3" />
                         <p className="legend">Laguna colorada, Bolivia</p>
                     </div>
 
                     <div>
-                        <img src={ciudad_5} className="img-fluid"  />
+                        <img src={ciudad_5} className="img-fluid" alt="Imagen-City-5" />
                         <p className="legend">Muralla china, China</p>
                     </div>
 
                     <div>
-                        <img src={ciudad_6} className="img-fluid" />
+                        <img src={ciudad_6} className="img-fluid" alt="Imagen-City-6" />
                         <p className="legend">Paris, Francia</p>
                     </div>
                     <div>
-                        <img src={ciudad_9} className="img-fluid"  />
+                        <img src={ciudad_9} className="img-fluid" alt="Imagen-City-9" />
                         <p className="legend">Venecia, Italia</p>
                     </div>
 
                     <div>
-                        <img src={ciudad_10} className="img-fluid" />
+                        <img src={ciudad_10} className="img-fluid" alt="Imagen-City-10" />
                         <p className="legend">Acapulco, Canada</p>
                     </div>
 
                     <div>
-                        <img src={ciudad_11} className="img-fluid" />
+                        <img src={ciudad_11} className="img-fluid" alt="Imagen-City-11" />
                         <p className="legend">Nueva York, EEUU</p>
                     </div>
 
                     <div>
-                        <img src={ciudad_12} className="img-fluid"  />
+                        <img src={ciudad_12} className="img-fluid" alt="Imagen-City-12" />
                         <p className="legend">completar, Canada</p>
                     </div>
                 </Carousel>
