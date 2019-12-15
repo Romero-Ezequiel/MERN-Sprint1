@@ -10,7 +10,7 @@ npm install
 npm i 
 npm update
 ```
-_Luego para ejecutarlo el proyecto hay que hacer en la consola o terminal en donde se encuentra la app:_
+_Luego para ejecutar el proyecto hay que hacer en la consola o terminal en donde se encuentra la app:_
 
 ```
 npm start
