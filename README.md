@@ -1,6 +1,6 @@
 ## Resolución del Sprint 1 del curso de MERN
 
-Se trata de una app de viajes para profundizar los conceptos de react.
+Se trata de una app de viajes para profundizar los conceptos de react. Vale aclarar que el login lo conecto con una base de datos en los siguientes sprint.
 
 ### Instalación
 _Usar npm para instalar los modulos que necesita la app. Para eso se puede utilizar cualquiera de los siguientes comandos:_
