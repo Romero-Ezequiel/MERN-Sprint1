@@ -24,5 +24,4 @@ _Las herramientas que utilice para crear la app son:_
 
 ### Autor ✒️
 
-* **Ezequiel Romero** - *Trabajo Inicial* - [Romero-Ezequiel](https://github.com/Romero-Ezequiel)
-
+* **Ezequiel Romero** - *Trabajo Inicial* 
